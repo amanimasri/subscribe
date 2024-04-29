@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>خطة الدفع</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container main-container">
+        <div class="row">
+            <div class="col-3 steps">
+                <div class="step-item">
+                    <div class="step-icon">
+                        <i class="bi bi-1-circle"></i>
+                    </div>
+                    <div class="step-info">
+                        <p class="step-number">الخطوة 1</p>
+                        <p class="step-title">المعلومات الشخصية</p>
+                    </div>
+                </div>
+                <div class="step-item">
+                    <div class="step-icon">
+                        <i class="active bi bi-2-circle-fill"></i>
+                    </div>
+                    <div class="step-info">
+                        <p class="step-number">الخطوة 2</p>
+                        <p class="step-title">خطة الدفع </p>
+                    </div>
+                </div>
+                <div class="step-item">
+                    <div class="step-icon">
+                        <i class="bi bi-3-circle"></i>
+                    </div>
+                    <div class="step-info">
+                        <p class="step-number">الخطوة 3</p>
+                        <p class="step-title">خدمات إضافية </p>
+                    </div>
+                </div>
+                <div class="step-item">
+                    <div class="step-icon">
+                        <i class="bi bi-4-circle"></i>
+                    </div>
+                    <div class="step-info">
+                        <p class="step-number">الخطوة 4</p>
+                        <p class="step-title">الملخص </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col form-section">
+                <h4 class="page-title">اختر خطة الدفع </h4>
+                <p class="page-desc"> يمكنك اختيار خطة الدفع المناسبة لك إما سنوية أو شهرية. </p>
+                <div class="plans d-flex justify-content-between mb-5">
+                    <div class="plan-detail active-plan">
+                        <div class="plan-icon icon-1">
+                            <i class="bi bi-joystick"></i>
+                        </div>
+                        <div class="plan-type">مبتدئ</div>
+                        <div class="plan-price" id="price1">$9/شهر </div>
+                    </div>
+                    <div class="plan-detail">
+                        <div class="plan-icon icon-2">
+                            <i class="bi bi-boombox-fill"></i>
+                        </div>
+                        <div class="plan-type">متقدم</div>
+                        <div class="plan-price" id="price2">$12/شهر </div>
+                    </div>
+                    <div class="plan-detail">
+                        <div class="plan-icon icon-3">
+                            <i class="bi bi-controller"></i>
+                        </div>
+                        <div class="plan-type">محترف</div>
+                        <div class="plan-price" id="price3">$15/شهر </div>
+                    </div>
+                </div>
+                <div class="switch-date d-flex justify-content-center">
+                    <p id="flexSwitchCheckChecked" class="monthly"> شهري </p>
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked"
+                            checked="checked">
+                    </div>
+                    <p class="yearly">سنوي</p>
+                </div>
+                <div class="btn-div d-flex justify-content-between align-items-center">
+                    <div class="back-link">
+                        <a href="index.html" class="text-decoration-none">العودة للخلف</a>
+                    </div>
+                    <div class="">
+                        <a href="addon.html" role="button" class="btn btn-secondary">الخطوة التالية</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+</body>
+
+</html>
